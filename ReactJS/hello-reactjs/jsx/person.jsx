@@ -20,7 +20,7 @@ const element1 = document.getElementById('person1');
 const element2 = document.getElementById('person2');
 
 ReactDOM.render(
-  <Person personNo='1' firstName='Bill' lastName='Gates' />, element1
+  <Person personNo='1' lastName='Gates' />, element1
 )
 
 ReactDOM.render(
